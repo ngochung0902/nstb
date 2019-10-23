@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "487729347887",
+    "firebase_url": "https://niemsotribenh.firebaseio.com",
+    "project_id": "niemsotribenh",
+    "storage_bucket": "niemsotribenh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487729347887:android:0bec7648c52419b42c75da",
+        "android_client_info": {
+          "package_name": "com.app.langta.niemsotribenh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487729347887-0iemg7hi2qn3j76tjp3tqn41chgop8cc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.langta.niemsotribenh",
+            "certificate_hash": "4b50439710dc55f7c562fba8d9dbbcf6ddd635ed"
+          }
+        },
+        {
+          "client_id": "487729347887-1gh186cmokmbtkgf7k1b8cdq3aqreqpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ClabcDqL3MgutaZ3SZkYKFjXbucrq-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487729347887-1gh186cmokmbtkgf7k1b8cdq3aqreqpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Details">
+
+    <RelativeLayout
+        android:background="@color/bg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_back"
+            android:tint="#ffffff"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/bold"
+            android:text="Chi Tiết"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:alpha="0.05"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/home"
+        android:scaleType="centerCrop"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginEnd="16dp"
+                android:id="@+id/tv_tenbenh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#20201f"
+                android:fontFamily="@font/semibold"
+                android:text=""
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#20201f"
+                    android:fontFamily="@font/semibold"
+                    android:text="Số trị bệnh: "
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_sotribenh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#20201f"
+                    android:fontFamily="@font/regular"
+                    android:text="Số trị bệnh: "
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#20201f"
+                    android:fontFamily="@font/semibold"
+                    android:text="Ghi chú:"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_ghichu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#20201f"
+                    android:fontFamily="@font/regular"
+                    android:text=""
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/img_ghichu"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
